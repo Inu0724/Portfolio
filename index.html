@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#081b29" />
+    <meta name="description" content="Inupama Pandigama's Portfolio - Software Engineering undergraduate and full-stack developer" />
+    <title>Inupama Pandigama - Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="photo.jpg" />
+</head>
+<body>
+    <canvas class="network-canvas" id="networkCanvas"></canvas>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id='menu-icon'></i>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#projects" style="--i:3">Projects</a>
+            <a href="#skills-title" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Inupama Pandigama</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A passionate developer creating amazing web experiences</p>
+            <div class="home-sci">
+                <a href="https://www.instagram.com/inupama0724/" style="--i:6"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/inupama-pandigama/" style="--i:7"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Inu0724" style="--i:8"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="INUPAMA PANDIGAM1.pdf" class="btn-box" download>Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="photo.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>Software Engineering undergraduate at the University of Westminster with a strong focus on Full-stack Development and Quality Assurance. Experienced in building real-time web and mobile apps using Flutter, Node.js, React, and Spring Boot. Passionate about scalable systems, test automation, and agile development. Currently expanding skills in backend development, software testing, and DevOps.</p>    
+            <a href="https://www.linkedin.com/in/inupama-pandigama/" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="projects" id="projects">
+            <div class="container">
+                <h1 class="sub-title">My <span>Projects</span></h1>
+                <div class="project-list">
+                    <div>
+                        <img src="images.png" alt="Real Time Ticketing System" loading="lazy">
+                        <h2>Real Time Ticketing System</h2>
+                        <p>A multi-threaded ticketing system that simulates concurrent ticket release and purchases using the Producer-Consumer pattern. Built with a Spring Boot backend, React frontend, and CLI-based simulator. Supports real-time ticket updates and thread-safe operations.</p>
+                        <a href="https://github.com/Inu0724/Real-Time-Ticketing-System" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <img src="plane.jpeg" alt="Plane Management System" loading="lazy">
+                        <h2>Plane Management System</h2>
+                        <p>A console-based Java application that simulates a seat reservation system for flights. Users can book and cancel seats, view real-time seating plans, and generate ticket files. Built with OOP principles using PlaneManagement, Ticket, and Person classes</p>
+                        <a href="https://github.com/Inu0724/Plane-Management-System" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <img src="grade.png" alt="University Student Grading System" loading="lazy">
+                        <h2>University Student Grading System</h2>
+                        <p>A Python program that determines student outcomes based on credit inputs and visualizes results with a histogram. Includes input validation, multi-student handling, and file storage.
+                          Tech: Python, File I/O, Conditional Logic, Lists, graphics.py</p>
+                        <a href="https://github.com/Inu0724/Progression_Outcome_Predictor" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <img src="fish.jpg" alt="Aqua Echo Website" loading="lazy">
+                        <h2>Aqua Echo Website</h2>
+                        <p>A collaborative web design project focused on raising awareness about ocean conservation. Developed using HTML, CSS, and JavaScript, the website emphasizes responsive design, accessibility, and user-friendly navigation. The project was created as part of a university coursework on web development and team-based design.</p>
+                        <a href="https://github.com/Inu0724/Aqua-Echo" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <img src="pet2.png" alt="Project Name" loading="lazy">
+                        <h2>Veta.lk</h2>
+                        <p>A full-stack mobile app for pet owners and vets to manage appointments, pet profiles, and vaccination records. Built using Flutter, with a Node.js and MongoDB backend. Includes real-time updates, JWT-based authentication, and Firebase Storage integration.</p>
+                        <a href="https://github.com/Govini2003/veta-app" class="read">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title" id="skills-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="container1" id="skills">    
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i> 
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #147bbc" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc" class='bx bxl-react'></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #F7DF1E" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #007396" class='bx bxl-java'></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #02569B" class='bx bxl-flutter'></i>
+                    <div class="info">
+                        <span>Flutter</span>
+                    </div>
+                    <div class="progress-line flutter">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #339933" class='bx bxl-nodejs'></i>
+                    <div class="info">
+                        <span>Node JS</span>
+                    </div>
+                    <div class="progress-line nodejs">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #6DB33F" class='bx bxl-spring-boot'></i>
+                    <div class="info">
+                        <span>Spring Boot</span>
+                    </div>
+                    <div class="progress-line spring">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                   <div class="percentage">80%</div>
+                   <div class="text">Creativity</div> 
+                </div>   
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">70%</div>
+                    <div class="text">Communication</div>  
+                </div> 
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Problem Solving</div>  
+                </div> 
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">70%</div>
+                    <div class="text">Teamwork</div>  
+                </div> 
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Time Management</div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container2">
+            <div class="contact" id="contact">
+                <div class="contact-text">
+                    <h2>Contact <span>Me</span></h2>
+                    <h4>Let's work together</h4>
+                    <p>I'm always interested in hearing about new opportunities, creative projects, or chances to collaborate. Feel free to reach out!</p>
+                    <div class="contact-list">
+                        <li><i class='bx  bxl-gmail'  ></i> inupamaasmini0724@gmail.com</li>
+                        <li><i class='bx  bx-phone'  ></i> 0756167771</li>
+                    </div>
+                    <div class="contact-icons">
+                        <a href="https://www.instagram.com/inupama0724/"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://www.linkedin.com/in/inupama-pandigama/"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/Inu0724"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="POST">
+                        <input type="text" name="name" placeholder="Enter Your Name" required autocomplete="name">
+                        <input type="email" name="email" placeholder="Enter Your Email" required autocomplete="email">
+                        <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                        <button type="submit" class="send">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="last-text">
+        <h3>Inupama Pandigama</h3>
+        <p>Inupama Pandigama. All rigths reserved</p>
+    </div>
+    
+   
+
+
+
+
+
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

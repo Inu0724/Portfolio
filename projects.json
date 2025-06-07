@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "bx-code",
+    "title": "Movie Explorer",
+    "description": "A full-stack movie search app using TMDb API, React, and Node.js.",
+    "link": "#"
+  },
+  {
+    "icon": "bx-crop",
+    "title": "Pet Care App",
+    "description": "Mobile app using Flutter and Firebase to manage pet health and vet appointments.",
+    "link": "#"
+  },
+  {
+    "icon": "bx-bulb",
+    "title": "Real-Time Ticketing System",
+    "description": "Built a real-time event ticketing platform using Spring Boot, MySQL, and React.",
+    "link": "#"
+  }
+]
